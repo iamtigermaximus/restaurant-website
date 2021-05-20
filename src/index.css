@@ -1,0 +1,67 @@
+:root{
+ --dark-blue: #02064a;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'NomaRegular',arial,helvetica,sans-serif;
+}
+
+.navbar{
+  background-color: var(--dark-blue) !important;
+}
+
+.navbar-brand-link{
+  text-decoration: none;
+  font-size:x-large;
+  color: azure;
+
+}
+.image-container{
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color:darkgray;
+  height: 30px;
+  padding-bottom:5px;
+  padding-top: 5px;
+  background-color: var(--dark-blue) !important;
+}
+.footer-link{
+  text-decoration: none ;
+  color: azure !important;
+  font-size: 12px !important;
+  font-weight: lighter;
+}
+.contact-button{
+  background-color: var(--dark-blue) !important;
+  color: azure !important;
+}
+
+.input-form-field{
+  width: 450px !important;
+}
+.jumbotron{
+  background-image: url(../src/images/fresh-veggies.jpg);
+  height: 10vh;
+}
+.contact-info-container{
+  border:1px solid lightgray
+}
+.dish-content{
+  font-size:10px;
+}
+.column{
+  padding-left: 0;
+  padding-right: 0;
+}
+
