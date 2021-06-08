@@ -4,9 +4,9 @@ import Jumbotron from './Jumbotron'
 
 const Contact = () => {
     return (
-        <>
+        <div className="contact-content-container">
         <Jumbotron/>
-        <div className="container text-center">
+        <div className="container text-center  contact-content">
             <div className="contact-heading text-center mt-4">
                 <h1>CONTACT</h1>
             </div>
@@ -15,7 +15,7 @@ const Contact = () => {
 
             </div>
             <div>
-                <div className="contact-info1">
+                <div className="contact-info1  ">
                     <h2>moma</h2>
                     <h6 className="fs-6 fw-light">Paaskylanrinne 567</h6>
                     <h6 className="fs-6 fw-light">00500 Helsinki FI</h6>
@@ -28,10 +28,10 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        <div className=" container text-center mb-5">
+        <div className=" container text-center mb-5 form-container">
             <form className=" border border-light p5 text-center">
                 <p className="h4 mb-4">General Inquiries</p>
-                <div className="container">
+                <div className="container text-center  ">
                 <input
                 type="text"
                 className="form-control mb-4 input-form-field mx-auto"
@@ -51,7 +51,7 @@ const Contact = () => {
             </div>
             </form>
         </div>
-       </>
+       </div>
     )
 }
 

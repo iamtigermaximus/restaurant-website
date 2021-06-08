@@ -69,7 +69,7 @@ const Menu = () => {
                 <div className="col-md-3  border border-secondary mx-1">
                     <div className="menu-title">
                         <div className="border border-secondary mt-2 text-center">
-                            <h3 className="fs-1 fw-light">Starters</h3>
+                            <h3 className="fs-1 fw-light">Mains</h3>
                         </div>
                         <div className="menu-list mb-4">
                         <div className="dish-list text-center">
@@ -120,10 +120,10 @@ const Menu = () => {
                         
                     </div>
                 </div>
-                <div className="col-md-3  border border-secondary mx-1">
+                <div className="col-md-3  border border-secondary mx-1 mb-5">
                     <div className="menu-title">
                         <div className="border border-secondary mt-2 text-center">
-                            <h3 className="fs-1 fw-light">Starters</h3>
+                            <h3 className="fs-1 fw-light">Desserts</h3>
                         </div>
                         <div className="menu-list mb-4">
                         <div className="dish-list text-center ">

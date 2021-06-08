@@ -10,6 +10,7 @@
 }
 body{
   font-family: 'NomaRegular',arial,helvetica,sans-serif;
+  
 }
 
 .navbar{
@@ -47,9 +48,7 @@ body{
   color: azure !important;
 }
 
-.input-form-field{
-  width: 450px !important;
-}
+
 .jumbotron{
   background-image: url(../src/images/fresh-veggies.jpg);
   height: 10vh;
@@ -65,3 +64,13 @@ body{
   padding-right: 0;
 }
 
+.reservation-content{
+  overflow-x: hidden;
+}
+.contact-content-container{
+  overflow-x: hidden;
+  justify-content: center;
+}
+.form-container{
+  overflow-wrap: inherit;
+}

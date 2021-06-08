@@ -5,7 +5,7 @@ const Reservations = () => {
     return (
         <>
         <Jumbotron/>
-        <div className="container welcome-content pb-5 ">
+        <div className="container reservation-content pb-5 ">
             <div className="reservation-heading text-center mt-4">
                 <h1>RESERVATIONS</h1>
                 <p className="mt-3 fw-lighter">Please choose your reservation date with specific time and number
@@ -14,7 +14,7 @@ of people to book a table.</p>
             <div className="container mt-5">
                 <div className="row">
                     <div className="col ">
-                        <div className="form-container">
+                        <div className="form-container form-control-md">
                             <div className="reservation-form input-form-field mx-auto">
                                 <div className="input-name mb-3">
                                     <label className="form-label">Your name:</label>
