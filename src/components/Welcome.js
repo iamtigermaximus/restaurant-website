@@ -10,10 +10,12 @@ const Welcome = () => {
             <div className="image-container text-center mt-5">
                 <img src={WelcomeImage} alt="..." className="img-fluid"/>
             </div>
-            <div className="mt-5 fw-light">
+            <div className="container">
+            <div className="mt-5 fw-light ps-4">
                 <p className="mb-5 fluid">
                 We would like to take this opportunity to welcome you to our restaurant. We guarantee you the freshest food, delivered daily to our dock, prepared to your liking. We can prepare a specific meal by request. All our locations are providing a wonderful open-air venue to enjoy the meal all year round, we offer both indoor and alfresco dining and our focus is on serving.
                 </p>
+            </div>
             </div>
         </div>
     )

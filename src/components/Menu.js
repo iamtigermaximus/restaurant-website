@@ -12,7 +12,7 @@ const Menu = () => {
         </div>
         <div className="container-fluid">
             <div className="row justify-content-center">
-                <div className="col-md-3  border border-secondary mx-1">
+                <div className="col-md-3  border border-secondary mx-1 mb-5">
                     <div className="menu-title">
                         <div className="border border-secondary mt-2 text-center">
                             <h3 className="fs-1 fw-light">Starters</h3>
@@ -66,7 +66,7 @@ const Menu = () => {
                         
                     </div>
                 </div>
-                <div className="col-md-3  border border-secondary mx-1">
+                <div className="col-md-3  border border-secondary mx-1 mb-5">
                     <div className="menu-title">
                         <div className="border border-secondary mt-2 text-center">
                             <h3 className="fs-1 fw-light">Mains</h3>

@@ -13,9 +13,10 @@ const Blog = () => {
             <div className="image-container text-center mt-5">
                 <img src={WelcomeImage} alt="..." className="img-fluid"/>
             </div>
-            <div className="mt-5 fw-light">
+            <div className="mt-5 fw-light container">
+                <h5 className="text-center">Blog Title</h5>
                 <p className="mb-5 fluid">
-                We would like to take this opportunity to welcome you to our restaurant. We guarantee you the freshest food, delivered daily to our dock, prepared to your liking. We can prepare a specific meal by request. All our locations are providing a wonderful open-air venue to enjoy the meal all year round, we offer both indoor and alfresco dining and our focus is on serving.
+                Ang Lorem Ipsum ay ginagamit na modelo ng industriya ng pagpriprint at pagtytypeset. Ang Lorem Ipsum ang naging regular na modelo simula pa noong 1500s, noong may isang di kilalang manlilimbag and kumuha ng galley ng type at ginulo ang pagkaka-ayos nito upang makagawa ng libro ng mga type specimen. Nalagpasan nito hindi lang limang siglo, kundi nalagpasan din nito ang paglaganap ng electronic typesetting at nanatiling parehas. Sumikat ito noong 1960s kasabay ng pag labas ng Letraset sheets na mayroong mga talata ng Lorem Ipsum, at kamakailan lang sa mga desktop publishing software tulad ng Aldus Pagemaker ginamit ang mga bersyon ng Lorem Ipsum.
                 </p>
             </div>
         </div>
